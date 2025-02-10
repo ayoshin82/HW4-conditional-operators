@@ -10,5 +10,9 @@ public class Main {
         if (age >=18) {
             System.out.println("Ты совершеннолетний");
         }
+        { System.out.println("Задача 2");}
+        int temperature = 6;
+        if (temperature >= 5)  { System.out.println("Тепло, шапку можно не надевать");}
+        if (temperature < 5)  { System.out.println("Холодно, шапку нужно надевать");}
     }
 }
