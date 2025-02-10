@@ -86,6 +86,34 @@ public class Main {
         } else {
             System.out.println("Если меньше 14 лет, то может кататься, но в  сопровождении взрослого ");
         }
+        System.out.println("Задача № 6 ");
+
+        int place = 0;
+        if (place  >  60) {
+            System.out.println("Если место под номером " + place  +   ", то   место стоячее");
+        }
+        if (place  <= 60 && place != 0) {
+            System.out.println("Если место под номером " + place + ", то   место сидячее");
+        }   else {
+            System.out.println("Если мест " + place +  ", то вагон уже полностью забит ");
+        }
+        System.out.println("Задача № 7");
+
+        int One = 10;
+        int Two = 2;
+        int Three = 3;
+
+        if (One>Two && One>Three) {
+            System.out.println("Максимальное число равное " + One );
+        }
+        else if (Two>One && Two>Three) {
+            System.out.println("Максимальное число равное " + Three );
+        }
+        else if  (Three>One && Three>Two) {
+            System.out.println("Максимальное число равное " + Three );
+        }
+
+
 
     }
 }
