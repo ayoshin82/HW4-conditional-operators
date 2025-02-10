@@ -97,6 +97,22 @@ public class Main {
         }   else {
             System.out.println("Если мест " + place +  ", то вагон уже полностью забит ");
         }
+        System.out.println("Задача № 7");
+
+        int One = 10;
+        int Two = 2;
+        int Three = 3;
+
+        if (One>Two && One>Three) {
+            System.out.println("Максимальное число равное " + One );
+        }
+        else if (Two>One && Two>Three) {
+            System.out.println("Максимальное число равное " + Three );
+        }
+        else if  (Three>One && Three>Two) {
+            System.out.println("Максимальное число равное " + Three );
+        }
+
 
 
     }
