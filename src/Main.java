@@ -14,5 +14,16 @@ public class Main {
         int temperature = 6;
         if (temperature >= 5)  { System.out.println("Тепло, шапку можно не надевать");}
         if (temperature < 5)  { System.out.println("Холодно, шапку нужно надевать");}
+        {
+            System.out.println("Задача 3");
+        }
+        int speed = 130;
+        if (speed <=60) {
+            System.out.println("Если скорсть меньше или равно 60 км/ч, можно ездить спокойно");
+        }
+        if (speed > 60) {
+            System.out.println("Если скорсть , больше 60 км/ч, будет штраф");
+        }
+        }
+
     }
-}
